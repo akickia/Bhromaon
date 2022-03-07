@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/index.css">
     <script src="https://kit.fontawesome.com/1aafbbb739.js" crossorigin="anonymous"></script>
     <title>Bhromaon</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 <body>
     <header class="section section__header">
@@ -19,7 +20,7 @@
                 <h1>Bhromaon</h1>
                 <p class="header--text">Safe Travel Anywhere</p>
                 <form>
-                    <input type="text" placeholder="Search Your Travel Destination">
+                    <input type="text" placeholder="Search Your Travel Destination" required minlength="5">
                     <button class="btn btn__search">Search<i class="fa fa-magnifying-glass"></i></button>
                 </form>
             </div>
@@ -35,12 +36,15 @@
                 <div class="nav__logo">
                     <p class="logo">Bhromaon</p>
                 </div>
-                <nav class="nav">
+                <nav class="nav-bar" id="nav-bar">
                     <ul>
+                        <a class="icon" onclick="burgerMenu()">
+                            <i class="fa fa-bars"></i></a>
                         <li><a href="#">Who We Are</a></li>
                         <li><a href="#">What We Do</a></li>
                         <li><a href="#">Travel With Us</a></li>
                         <li><a href="#">Contact Us</a></li>
+                        
                     </ul>
                 </nav>
             </div>
@@ -109,10 +113,10 @@
         <div class="main__content main__content--5">
             <h2 class="main__5--heading">What Our Tourist Say</h2>
             <div class="main__5--quote">
-                <img src="images/image3.jpg">
+                <img class="img3" src="images/image3.jpg">
                 <div class="quote--text">
                     <p class="grand">Sam Sumon</p>
-                    <p class="text"><i class="fa fa-quote-left"></i>  But I must explain to you how all this mistaken idea of account to denouncinpleasure and praising pain  
+                    <p class="text"><i class="fa fa-quote-left"></i> But I must explain to you how all this mistaken idea of account to denouncinpleasure and praising pain  
                     But I must explain to you how all this mistaken idea of account to nai denouncing pleasure and praising pain was account  born and I account 
                     will give you a complete account of the system was account  born and I account will give you a nai the complete account of the system</p>
                 </div>
@@ -126,11 +130,22 @@
             <div class="footer__links">
                 <i class="fa fa-facebook-f"></i>
                 <i class="fa fa-twitter"></i>
-                <i class="fa fa-linkedin-in"></i>
+                <i class="fab fa-linkedin-in"></i>
                 <i class="fa fa-youtube"></i>
                 <i class="fa fa-pinterest"></i>
             </div>
         </div>
     </footer>    
+
+    <script>
+        function burgerMenu() {
+            let burger = document.getElementById("nav-bar");
+            if (burger.className === "nav-bar") {
+            burger.className += "responsive";
+            } else {
+            burger.className = "nav-bar";
+            }
+        }
+        </script>
 </body>
 </html>
