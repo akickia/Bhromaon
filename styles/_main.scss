@@ -2,6 +2,21 @@
     max-width: 65%;
 }
 
+.text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.6px;
+}
+
+.btn__explore, .btn__book {
+    max-width: 40%;
+    width: 100%;
+    padding: 4% 2%;
+}
+
+/*section 1*/
 .section__main--1 {
     background-image: url(../images/bg-img-2.png);
     background-repeat: no-repeat;
@@ -31,20 +46,6 @@ h2 {
     line-height: 26px;
 }
 
-.text {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 1.6px;
-}
-
-.btn__explore, .btn__book {
-    max-width: 40%;
-    width: 100%;
-    padding: 4% 2%;
-   
-}
 .main__1--imgs {
     display: flex;
     justify-content: center;
@@ -67,7 +68,7 @@ h2 {
 }
 
 
-
+/*section 2*/
 .section__main--2 {
     background-color: #333333;
     display: flex;
@@ -79,6 +80,7 @@ h2 {
     padding: 2%;
     width: 100%;
 }
+
 .shape {
     max-width: 60%;
     width: 100%;
@@ -103,6 +105,7 @@ h2 {
     background-color: #333333;
 }
 
+/*section 3 and 4*/
 .section__main--3 {
     background-image: url(../images/bg-img-3.jpg);
     background-repeat: no-repeat;
@@ -111,8 +114,6 @@ h2 {
     justify-content: center;
     min-height: 100vh;
     align-items: center;
-    
-    
 }
 
 .main__content--spain {
@@ -128,7 +129,6 @@ h2 {
     font-size: 20px;
     line-height: 26px;
     letter-spacing: 1.5px;
-    
 }
 
 .grand {
@@ -150,6 +150,7 @@ h2 {
     align-items: center;
 }
 
+/*section 5*/
 .section__main--5 {
     background-image: url(../images/bg-img-5.jpg);
     background-repeat: no-repeat;
@@ -172,6 +173,12 @@ h2 {
 
 .main__5--quote {
     display: flex;
+}
+
+.fa-quote-left {
+    color: #5474FD;
+    font-size: 36px;
+    line-height: 26px;
 }
 
 .quote--text {

@@ -13,6 +13,7 @@
     align-items: center;
     padding-bottom: 2%;
 }
+
 .footer--logo {
     font-style: normal;
     font-weight: bold;
@@ -36,16 +37,6 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-}
-
-i:hover {
-    transform: scale(1.2);
-}
-
-.fa-quote-left {
-    color: #5474FD;
-    font-size: 36px;
-    line-height: 26px;
 }
 
 .fa-linkedin-in {
