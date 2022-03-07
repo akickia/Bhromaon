@@ -1,3 +1,6 @@
+@use 'fonts';
+
+/*header section*/
 .section__header {
     background-image: url(../images/bg-img-1.jpg);
     background-repeat: no-repeat;
@@ -17,7 +20,6 @@
     justify-content: space-around;
 }
 
-
 h1 {
     font-weight: bold;
     font-size: 48px;
@@ -26,9 +28,12 @@ h1 {
     text-transform: uppercase;
 }
 
-.btn__search {
-    padding: 0 4%;
-    height: 4rem;
+.header--text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 6.82px;
 }
 
 form {
@@ -59,12 +64,10 @@ input:hover {
     text-align: center;
     color: #999999;
 }
-.header--text {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 26px;
-    letter-spacing: 6.82px;
+
+.btn__search {
+    padding: 0 4%;
+    height: 4rem;
 }
 
 .scroll {
@@ -75,6 +78,7 @@ input:hover {
     letter-spacing: 2.8px;
 }
 
+/*nav section*/
 .section__nav {
     background-color: #5474FD;
     width: 100%;
@@ -83,8 +87,8 @@ input:hover {
 .header__nav {
     display: flex;
     justify-content: center;
-    
 }
+
 .header__nav-bar {
     display: flex;
     flex-direction: row;
@@ -96,6 +100,7 @@ input:hover {
 .nav__logo {
     max-width: 30%;
 }
+
 .logo {
     font-style: normal;
     font-weight: bold;
@@ -104,10 +109,12 @@ input:hover {
     letter-spacing: 2.4px;
     text-transform: uppercase;
 }
+
 .nav-bar {
     max-width: 50%;
     width: 100%;
 }
+
 ul {
     display: flex;
     flex-direction: row;
