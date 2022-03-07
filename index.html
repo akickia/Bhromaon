@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/index.css">
     <script src="https://kit.fontawesome.com/1aafbbb739.js" crossorigin="anonymous"></script>
@@ -14,7 +17,7 @@
         <div class="header__content">
             <div class="header__content--text">
                 <h1>Bhromaon</h1>
-                <p>Safe Travel Anywhere</p>
+                <p class="header--text">Safe Travel Anywhere</p>
                 <form>
                     <input type="text" placeholder="Search Your Travel Destination">
                     <button class="btn btn__search">Search<i class="fa-solid fa-magnifying-glass"></i></button>
@@ -22,14 +25,16 @@
             </div>
             <div class="scroll">
                 <p>Scroll Down</p>
-                <i class="fa-solid fa-angle-down"></i>
+                <a href="#main1"><i class="fa-solid fa-angle-down"></i></a>
             </div>
         </div>
     </header>
     <div class="section section__nav">
         <div class="header__nav">
             <div class="header__nav-bar">
-                <p class="logo">Bhromaon</p>
+                <div class="nav__logo">
+                    <p class="logo">Bhromaon</p>
+                </div>
                 <nav class="nav">
                     <ul>
                         <li><a href="#">Who We Are</a></li>
@@ -44,16 +49,18 @@
     </div>
     <div class="section section__main section__main--1">
         <div class="main__content main__content--1">
-            <div class="main__1--text">
+            <div class="main__1--text" id="main">
                 <h2>Why Choose Us</h2>
-                <p>Tion and dislike men who are so beguiled and demoralized by desire by the charms of pleasure of the moment, 
+                <p class="text">Tion and dislike men who are so beguiled and demoralized by desire by the charms of pleasure of the moment, 
                     so blinded by desire, that they cannot foresee </p>
-                <p>Ddislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that.</p>
+                <p class="text">Ddislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that.</p>
                 <button class="btn btn__explore">Explore Places</button>
             </div>
             <div class="main__1--imgs">
-                <img class="img img1" src="images/Image1.jpg">
-                <img class="img img2" src="images/image2.jpg">
+                <div class="imgs">
+                    <img class="img img1" src="images/Image1.jpg">
+                    <img class="img img2" src="images/image2.jpg">
+                </div>
             </div>
         </div>
     </div>

@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     color: fonts.$mainfontcolor;
+    font-family: fonts.$pfont;
 }
 
 
@@ -14,10 +15,92 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
+    align-items: center;
+    min-height: 100vh
 }
 
 .header__content {
-    max-width: 60%;
+    max-width: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+h1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 26px;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+}
+
+.btn {
+    font-family: fonts.$secondfont;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    background-color: #5474FD;
+    color: white;
+    border: none
+}
+
+.btn__search {
+    padding: 0 4%;
+    height: 4rem;
+}
+
+.btn:hover {
+    color: rgb(243, 243, 201);
+    background-color: #8b9ef3;
+}
+form {
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    max-width: 100%;
+    width: 800%;;
+    justify-self: center;
+}
+
+input {
+    flex-grow: 2;
+    border: none;
+}
+
+input:hover {
+    background-color: #ecebeb;
+}
+
+::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2.8px;
+    text-align: center;
+    color: #999999;
+}
+.header--text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 6.82px;
+}
+
+.scroll {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2.8px;
 }
 
 .section__nav {
@@ -28,22 +111,55 @@ body {
 .header__nav {
     display: flex;
     justify-content: center;
+    
 }
 .header__nav-bar {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    max-width: 60%;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
+}
+
+.nav__logo {
+    max-width: 30%;
+}
+.logo {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+.nav {
+    max-width: 30%;
+    width: 100%;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    max-width: 100%;
+    width: 100%;
+    justify-content: space-between;
     
 }
 
-ul {
-    display: flex;
-    list-style-type: none;
+a {
+    text-decoration: none;
+    font-family: fonts.$secondfont;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
+
+
 .main__content {
-    max-width: 60%;
+    max-width: 65%;
 }
 
 .section__main--1 {
@@ -52,13 +168,66 @@ ul {
     background-size: cover;
     display: flex;
     justify-content: center;
-    text-align: center;
+    min-height: 100vh
 }
 
 .main__content--1 {
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
+
+.main__1--text {
+    max-width: 50%;
+    width: 100%;
+    color: #E8E8E8;
+}
+
+h2 {
+    font-family: fonts.$secondfont;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 26px;
+}
+
+.text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.6px;
+}
+
+.btn__explore {
+    max-width: 40%;
+    width: 100%;
+    padding: 4% 2%;
+   
+}
+.main__1--imgs {
+    display: flex;
+    justify-content: center;
+    max-width: 40%;
+    width: 100%;
+}
+
+.imgs {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 100%;
+}
+
+.img1 {
+    align-self: flex-start;
+}
+.img2 {
+    align-self: flex-end;
+}
+
+
+
 .section__main--2 {
     background-color: #333333;
     display: flex;
@@ -77,7 +246,8 @@ ul {
     background-size: cover;
     display: flex;
     justify-content: center;
-    text-align: center;
+    min-height: 100vh;
+    align-items: center;
     
 }
 
@@ -91,12 +261,13 @@ ul {
     background-size: cover;
     display: flex;
     justify-content: center;
-    text-align: center;
+    min-height: 100vh;
 }
 
 .main__content--4 {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .section__main--5 {
@@ -105,7 +276,9 @@ ul {
     background-size: cover;
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
+    min-height: 100vh;
 }
 
 .main__5--quote {
@@ -114,6 +287,7 @@ ul {
 
 .quote--text {
     background-color: #333333;
+    text-align: start;
 }
 
 .section__footer {
