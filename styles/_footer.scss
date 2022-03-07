@@ -1,0 +1,53 @@
+.section__footer {
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer__content {
+    max-width: 17%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2%;
+}
+.footer--logo {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 3.36px;
+    text-transform: uppercase
+}
+
+.footer--text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.6px;
+}
+
+.footer__links {
+    font-size: 16px;
+    line-height: 26px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+i:hover {
+    transform: scale(1.2);
+}
+
+.fa-quote-left {
+    color: #5474FD;
+    font-size: 36px;
+    line-height: 26px;
+}
+
+.fa-linkedin-in {
+    color: #5474FD;
+}
