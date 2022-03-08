@@ -34,16 +34,7 @@ i:hover {
 }
 
 
-@media screen and (max-width: 1300px) {
-    .img1 {
-        align-self: center;
-    }
-    .img2 {
-        align-self: center;
-    }
-}
-
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .header__content {
         max-width: 90%;
     }
@@ -57,7 +48,6 @@ i:hover {
         float: right;
         display: flex;
     }
-    
     .nav-bar.responsive li {
         display: block;
     }
@@ -78,6 +68,21 @@ i:hover {
         max-width: 50%;
         background-color: #5474FD;
         color: white;
+        align-items: flex-end;
+    }
+    .main__graphics {
+        font-size: 26px;
+    }
+    .main__content--5 {
+        align-items: center;
+    }
+    .main__5--quote {
+        flex-direction: column;
+        max-width: 100%;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        margin: 4%;
     }
 }
 
@@ -89,10 +94,29 @@ i:hover {
         flex-direction: column;
         text-align: center;
     }
+    .main__1--text {
+        max-width: 90%;
+    }
+    .main__1--imgs {
+        max-width: 90%;
+        margin: 4%;
+    }
+    .img1 {
+        max-width: 100%;
+    }
+    .img2 {
+        max-width: 100%;
+    }
+    .main__graphics {
+        font-size: 18px;
+    }
     .main__5--quote {
         flex-direction: column;
     }
     .footer__content {
         max-width: 60%;
     }
+    
+
+    
 }
