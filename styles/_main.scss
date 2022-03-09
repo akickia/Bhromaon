@@ -13,9 +13,7 @@
 }
 
 .btn__explore, .btn__book {
-    max-width: 40%;
-    width: 100%;
-    padding: 4% 2%;
+    padding: 4%;
 }
 
 /*section 1*/
@@ -62,11 +60,23 @@ h2 {
     width: 100%;
 }
 
+.imgs1 {
+    max-width: 100%;
+    display: flex;
+    justify-items: flex-start;
+}
+
+.imgs2 {
+    max-width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
 .img1 {
-    align-self: flex-start;
+    max-width: 90%;
 }
 .img2 {
-    align-self: flex-end;
+    max-width: 90%;
 }
 
 
@@ -161,9 +171,16 @@ h2 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
+.main__content--5 {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 90%;
+}
 
 .main__5--heading {
     font-family: fonts.$secondfont;
@@ -175,6 +192,9 @@ h2 {
 
 .main__5--quote {
     display: flex;
+    height: 285px;
+    width: 1113;
+    overflow: auto;
 }
 
 .fa-quote-left {

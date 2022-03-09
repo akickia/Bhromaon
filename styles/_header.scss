@@ -13,11 +13,12 @@
 }
 
 .header__content {
-    max-width: 40%;
+    max-width: 50%;
     width: 100%;
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 h1 {
@@ -92,13 +93,13 @@ input:hover {
 .header__nav-bar {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 80%;
 }
 
 .nav__logo {
-    max-width: 30%;
+    max-width: 10%;
 }
 
 .logo {
@@ -110,8 +111,13 @@ input:hover {
     text-transform: uppercase;
 }
 
+.fa-magnifying-glass {
+    color: white;
+    z-index: 1;
+}
+
 .nav-bar {
-    max-width: 50%;
+    max-width: 60%;
     width: 100%;
 }
 
