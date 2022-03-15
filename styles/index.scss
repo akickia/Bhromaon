@@ -8,6 +8,8 @@ body {
     flex-direction: column;
     color: fonts.$mainfontcolor;
     font-family: fonts.$pfont;
+    max-width: 1600px;
+    margin: auto;
 }
 
 .btn {
@@ -21,7 +23,7 @@ body {
     text-transform: uppercase;
     background-color: #5474FD;
     color: white;
-    border: none
+    border: none;
 }
 
 .btn:hover {
@@ -32,6 +34,8 @@ body {
 i:hover {
     transform: scale(1.2);
 }
+
+
 
 
 @media screen and (max-width: 1000px) {
@@ -116,7 +120,5 @@ i:hover {
     .footer__content {
         max-width: 60%;
     }
-    
-
     
 }
