@@ -9,7 +9,7 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    min-height: 100vh
+    min-height: 100vh;
 }
 
 .header__content {
@@ -143,5 +143,9 @@ a {
     line-height: 26px;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+li a:hover {
+    color: darkblue;
 }
 
